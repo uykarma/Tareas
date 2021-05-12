@@ -7,11 +7,19 @@ public class Sucursal {
     private String telefono;
     private long rut;
 
-    public String getNombre{
-        return this.nombre;
+    public String getNombre(){
+        return nombre;
     }
-
-    public int getIdentificador {
-        return this.identificador;
+    public int getIdentificador() {
+        return identificador;
+    }
+    public String getDireccion(){
+        return direccion;
+    }
+    public String getTelefono(){
+        return telefono;
+    }
+    public long getRut(){
+        return rut;
     }
 }
