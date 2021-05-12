@@ -6,6 +6,9 @@ public class Sucursal {
     private String direccion;
     private String telefono;
     private long rut;
+    LinkedList<Empleado> listaEmpleados = new LinkedList<Empleado>
+    LinkedList<EmpJornalero> listaEmpleadosJornaleros = new LinkedList<EmpJornalero>
+    LinkedList<EmpMensual> listaEmpleadosMensuales = new LinkedList<EmpMensual>
 
     public String getNombre(){
         return nombre;
