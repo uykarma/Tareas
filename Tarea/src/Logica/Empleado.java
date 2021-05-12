@@ -8,22 +8,51 @@ public class Empleado {
     private String direccion;
     private String telefono;
 
-    public String getNombre() {
-        return nombre;
-    }
-    public String getApellido() {
-        return apellido;
-    }
-    public int getNroBps() {
-        return nroBps;
-    }
-    public int getNroFuncionario() {
-        return nroFuncionario;
-    }
-    public String getDireccion() {
-        return direccion;
-    }
-    public String getTelefono() {
-        return telefono;
-    }
+    
+public Empleado() {
+		
+		this.nombre = "";
+		this.apellido = "";
+		this.númeroBPS = 0;
+		this.númeroFuncionario = 0;
+		this.dirección = "";
+		this.teléfono = "";
+}
+    
+    public String getnombre() {
+		   return this.nombre;
+	   }
+	   public void setnombre() {
+		   this.nombre = nombre;
+	   }
+	   public String apellido() {
+		   return this.apellido;
+	   }
+	   public void setapellido() {
+		   this.apellido = apellido;
+	   }
+	   public int getnúmeroBPS() {
+		   return this.númeroBPS;
+	   }
+	   public void setnúmeroBPS() {
+		   this.númeroBPS = númeroBPS;
+	   }   
+	   public int getnúmeroFuncionario() {
+		   return this.númeroFuncionario;
+	   }
+	   public void númeroFuncionario() {
+		   this.númeroFuncionario = númeroFuncionario;
+	   }
+	   public String dirección() {
+		   return this.dirección;
+	   }
+	   public void setdirección() {
+		   this.dirección = dirección;
+	   }
+	   public String getteléfono() {
+		   return this.teléfono;
+	   }
+	   public void setteléfono() {
+		   this.teléfono = teléfono;
+	   }
 }
