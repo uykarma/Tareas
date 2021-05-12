@@ -9,18 +9,41 @@ public class Sucursal {
     LinkedList<Empleado> listaEmpleados = new LinkedList<Empleado>
     LinkedList<EmpJornalero> listaEmpleadosJornaleros = new LinkedList<EmpJornalero>
     LinkedList<EmpMensual> listaEmpleadosMensuales = new LinkedList<EmpMensual>
-
+        
+    this.nombre = "";
+	this.identificador = 0;
+	this.dirección = "";
+	this.teléfono = "";
+	this.rut = 0;
+	
+        
+        
+    public void setnombre() {
+	   this.nombre = nombre;    
+    }
     public String getNombre(){
         return nombre;
     }
-    public int getIdentificador() {
+    public void setidentificador() {
+	   this.identificador = identificador;
+    }     
+    public int getidentificador() {
         return identificador;
     }
-    public String getDireccion(){
+    public void setdirección() {
+	   this.dirección = dirección;    
+    }
+    public String getdirección(){
         return direccion;
     }
-    public String getTelefono(){
-        return telefono;
+    public void setteléfono() {
+	   this.teléfono = teléfono;    
+    }
+    public String getteléfono(){
+        return teléfono;
+    }
+    public void setrut() {
+	   this.rut = rut;    
     }
     public long getRut(){
         return rut;
