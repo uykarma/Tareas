@@ -6,9 +6,10 @@ public class EmpJornalero extends Empleado {
   private double horasTrabajadas;
   
   //Constructores
-  public EmpJornalero() {
-    this.valorHora = 0.0;
-	  this.horasMes = 0.0;
+  public EmpJornalero(String nombre, String apellido, int nroBps, int nroFuncionario, String direccion, String telefono, double valorHora, double horasTrabajadas) {
+    super(nombre, apellido, nroBps, nroFuncionario, direccion, telefono);
+    this.valorHora = valorHora;
+	  this.horasTrabajadas = horasTrabajadas;
   }
    
   //Getters y Setters

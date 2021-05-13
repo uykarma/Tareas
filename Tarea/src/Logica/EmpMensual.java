@@ -6,9 +6,10 @@ public class EmpMensual extends Empleado {
     private String tipoRegimen;
     
 	//Constructores
-	public EmpMensual(){
-    	this.salarioMensual = 0.0;
-		this.tipoRegimen = "";
+	public EmpMensual(String nombre, String apellido, int nroBps, int nroFuncionario, String direccion, String telefono, double salarioMensual, String tipoRegimen){
+		super(nombre, apellido, nroBps, nroFuncionario, direccion, telefono);
+    	this.salarioMensual = salarioMensual;
+		this.tipoRegimen = tipoRegimen;
 	}
 
 	//Getters y Setters

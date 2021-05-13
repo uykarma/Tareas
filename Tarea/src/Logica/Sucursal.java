@@ -1,5 +1,8 @@
 package Logica;
 
+//Utilidades
+import java.utils;
+
 public class Sucursal {
     //Atributos
     private String nombre;
@@ -12,12 +15,13 @@ public class Sucursal {
     LinkedList<EmpMensual> listaEmpleadosMensuales = new LinkedList<EmpMensual>();
     
     //Constructores
-    public Sucursal(){
-        this.nombre = "";
-	    this.identificador = 0;
-	    this.direccion = "";
-	    this.telefono = "";
-	    this.rut = 0;
+    public Sucursal(String nombre, int identificador, String direccion, String telefono, long rut, LinkedList<Empleado> listaEmpleados){
+        this.nombre = nombre;
+	    this.identificador = identificador;
+	    this.direccion = direccion;
+	    this.telefono = telefono;
+	    this.rut = rut;
+        this.listaEmpleados = listaEmpleados;
     }
     
     //Getters y Setters

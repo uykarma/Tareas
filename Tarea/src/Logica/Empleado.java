@@ -10,13 +10,13 @@ public class Empleado {
     private String telefono;
     
 	//Constructores
-	public Empleado() {	
-		this.nombre = "";
-		this.apellido = "";
-		this.nroBPS = 0;
-		this.nroFuncionario = 0;
-		this.direccion = "";
-		this.telefono = "";
+	public Empleado(String nombre, String apellido, int nroBps, int nroFuncionario, String direccion, String telefono) {	
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.nroBPS = nroBps;
+		this.nroFuncionario = nroFuncionario;
+		this.direccion = direccion;
+		this.telefono = telefono;
 	}
     
 	//Getters y Setters
