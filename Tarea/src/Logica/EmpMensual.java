@@ -27,7 +27,7 @@ public class EmpMensual extends Empleado {
 	}
 
 	//Metodos
-	public String toString(){
-        return (this.nombre + " " + this.direccion);
-    }
+	public double getSueldo(){
+		return salarioMensual;
+	  }
 }

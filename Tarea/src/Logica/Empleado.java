@@ -58,7 +58,11 @@ public class Empleado {
 	}
 
 	//Metodos
+	public double getSueldo(){
+		
+	}
 	public String toString(){
-        return (this.nombre + " " + this.direccion);
+        return ("Nombre: " + this.nombre + " Apellido: " + this.apellido + " Nro BPS: " + this.nroBps + " Nro Funcionario: " + this.nroFuncionario +
+				 " Direccion: " + this.direccion + " Telefono: " + this.telefono);
     }
 }
