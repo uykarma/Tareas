@@ -1,6 +1,7 @@
 package Logica;
 
 public class Sucursal {
+    //Atributos
     private String nombre;
     private int identificador;
     private String direccion;
@@ -9,16 +10,17 @@ public class Sucursal {
     LinkedList<Empleado> listaEmpleados = new LinkedList<Empleado>();
     LinkedList<EmpJornalero> listaEmpleadosJornaleros = new LinkedList<EmpJornalero>();
     LinkedList<EmpMensual> listaEmpleadosMensuales = new LinkedList<EmpMensual>();
-        
+    
+    //Constructores
     public Sucursal(){
-    this.nombre = "";
-	this.identificador = 0;
-	this.direccion = "";
-	this.telefono = "";
-	this.rut = 0;
-}
-        
-        
+        this.nombre = "";
+	    this.identificador = 0;
+	    this.direccion = "";
+	    this.telefono = "";
+	    this.rut = 0;
+    }
+    
+    //Getters y Setters
     public void setNombre() {
 	   this.nombre = nombre;    
     }
@@ -48,5 +50,10 @@ public class Sucursal {
     }
     public long getRut(){
         return rut;
+    }
+
+    //Metodos
+    public String toString(){
+        return (this.nombre + " " + this.direccion);
     }
 }
