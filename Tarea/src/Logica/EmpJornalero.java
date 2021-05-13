@@ -16,13 +16,13 @@ public class EmpJornalero extends Empleado {
   public double getValorHora() {
 	  return this.valorHora;
   }
-  public void setValorHora() {
+  public void setValorHora(double valorHora) {
 	  this.valorHora = valorHora;
   }   
   public double getHorasTrabajadas() {
 	  return this.horasTrabajadas;
   }
-  public void setHorasTrabajadas() {
+  public void setHorasTrabajadas(double horasTrabajadas) {
 	  this.horasTrabajadas = horasTrabajadas;
   }
 
