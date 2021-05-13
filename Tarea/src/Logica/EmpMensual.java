@@ -4,19 +4,20 @@ public class EmpMensual extends Empleado {
     private double salarioMensual;
     private String tipoRegimen;
     
+	public EmpMensual(){
     this.salarioMensual = 0.0;
 	this.tipoRegimen = "";
-
-    public double getsalarioMensual() {
+}
+    public double getSalarioMensual() {
 		  return this.salarioMensual;
 	  }
-	  public void setsalarioMensual() {
+	  public void setSalarioMensual() {
 		   this.salarioMensual = salarioMensual;
 	  }   
-	  public double gettipoRegimen() {
+	  public double getTipoRegimen() {
 		  return this.tipoRegimen;
 	  }
-	  public void settipoRegimen() {
+	  public void setTipoRegimen() {
 		   this.tipoRegimen = tipoRegimen;
 	  }
 

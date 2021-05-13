@@ -6,43 +6,44 @@ public class Sucursal {
     private String direccion;
     private String telefono;
     private long rut;
-    LinkedList<Empleado> listaEmpleados = new LinkedList<Empleado>
-    LinkedList<EmpJornalero> listaEmpleadosJornaleros = new LinkedList<EmpJornalero>
-    LinkedList<EmpMensual> listaEmpleadosMensuales = new LinkedList<EmpMensual>
+    LinkedList<Empleado> listaEmpleados = new LinkedList<Empleado>();
+    LinkedList<EmpJornalero> listaEmpleadosJornaleros = new LinkedList<EmpJornalero>();
+    LinkedList<EmpMensual> listaEmpleadosMensuales = new LinkedList<EmpMensual>();
         
+    public Sucursal(){
     this.nombre = "";
 	this.identificador = 0;
-	this.dirección = "";
-	this.teléfono = "";
+	this.direccion = "";
+	this.telefono = "";
 	this.rut = 0;
-	
+}
         
         
-    public void setnombre() {
+    public void setNombre() {
 	   this.nombre = nombre;    
     }
     public String getNombre(){
         return nombre;
     }
-    public void setidentificador() {
+    public void setIdentificador() {
 	   this.identificador = identificador;
     }     
-    public int getidentificador() {
+    public int getIdentificador() {
         return identificador;
     }
-    public void setdirección() {
-	   this.dirección = dirección;    
+    public void setDireccion() {
+	   this.direccion = direccion;    
     }
-    public String getdirección(){
+    public String getDireccion(){
         return direccion;
     }
-    public void setteléfono() {
-	   this.teléfono = teléfono;    
+    public void setTelefono() {
+	   this.telefono = telefono;    
     }
-    public String getteléfono(){
-        return teléfono;
+    public String getTelefono(){
+        return telefono;
     }
-    public void setrut() {
+    public void setRut() {
 	   this.rut = rut;    
     }
     public long getRut(){

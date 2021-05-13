@@ -9,16 +9,16 @@ public class EmpJornalero extends Empleado {
 	this.horasMes = 0.0;
     }
    
-  public double getvalorHora() {
+  public double getValorHora() {
 	  return this.valorHora;
   }
-  public void setvalorHora() {
+  public void setValorHora() {
 	   this.valorHora = valorHora;
   }   
-     public double gethorasMes() {
-	  return this.horasMes;
+     public double getHorasTrabajadas() {
+	  return this.horasTrabajadas;
   }
-  public void sethorasMes() {
-	   this.horasMes = horasMes;
+  public void setHorasTrabajadas() {
+	   this.horasTrabajadas = horasTrabajadas;
   }
 }

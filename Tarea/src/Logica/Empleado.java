@@ -13,46 +13,46 @@ public Empleado() {
 		
 		this.nombre = "";
 		this.apellido = "";
-		this.númeroBPS = 0;
-		this.númeroFuncionario = 0;
-		this.dirección = "";
-		this.teléfono = "";
+		this.nroBPS = 0;
+		this.nroFuncionario = 0;
+		this.direccion = "";
+		this.telefono = "";
 }
     
-    public String getnombre() {
+    public String getNombre() {
 		   return this.nombre;
 	   }
-	   public void setnombre() {
+	   public void setNombre() {
 		   this.nombre = nombre;
 	   }
-	   public String apellido() {
+	   public String getApellido() {
 		   return this.apellido;
 	   }
-	   public void setapellido() {
+	   public void setApellido() {
 		   this.apellido = apellido;
 	   }
-	   public int getnúmeroBPS() {
-		   return this.númeroBPS;
+	   public int getNroBps() {
+		   return this.nroBps;
 	   }
-	   public void setnúmeroBPS() {
-		   this.númeroBPS = númeroBPS;
+	   public void setNroBps() {
+		   this.nroBPS = nroBPS;
 	   }   
-	   public int getnúmeroFuncionario() {
-		   return this.númeroFuncionario;
+	   public int getNroFuncionario() {
+		   return this.nroFuncionario;
 	   }
-	   public void númeroFuncionario() {
-		   this.númeroFuncionario = númeroFuncionario;
+	   public void setNroFuncionario() {
+		   this.nroFuncionario = nroFuncionario;
 	   }
-	   public String dirección() {
-		   return this.dirección;
+	   public String getDireccion() {
+		   return this.direccion;
 	   }
-	   public void setdirección() {
-		   this.dirección = dirección;
+	   public void setDireccion() {
+		   this.direccion = direccion;
 	   }
-	   public String getteléfono() {
-		   return this.teléfono;
+	   public String getTelefono() {
+		   return this.telefono;
 	   }
-	   public void setteléfono() {
-		   this.teléfono = teléfono;
+	   public void setTelefono() {
+		   this.telefono = telefono;
 	   }
 }
