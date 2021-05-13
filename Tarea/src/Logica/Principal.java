@@ -34,11 +34,5 @@ public class Principal {
 
         sucursal2.listaTrabajadores.add(jornalero1);
         sucursal2.listaTrabajadores.add(mensual1);
-
-        for(int i = 0; i < listaSucursales.length ; i++){
-            for(int j =0; j < listaSucursales[i].listaTrabajadores.length; j++){
-                System.out.print(listaSucursales[i].listaTrabajadores[j].nombre);
-            }
-        }
     }
 }
